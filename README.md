@@ -7,9 +7,13 @@ The primary objective of the Diabetes Prediction System is to employ machine lea
 # Tools Used:
 
 1)Machine Learning Models
+
 2)Python Programming Language
+
 3)Scikit-learn Library
+
 4)Flask Framework
+
 5)HTML/CSS/JavaScript
 
 # Purpose:
@@ -24,5 +28,5 @@ Proactive Healthcare: Users can leverage the predictions to make informed lifest
 
 User Empowerment: The system empowers individuals by providing insights into their health status, fostering a sense of control over their well-being, and encouraging proactive health management.
 
-# Overall, the Diabetes Prediction System contributes to public health by leveraging machine learning for predictive analysis and promoting early intervention in diabetes-related health issues.
+Overall, the Diabetes Prediction System contributes to public health by leveraging machine learning for predictive analysis and promoting early intervention in diabetes-related health issues.
 
