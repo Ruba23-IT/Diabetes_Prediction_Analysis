@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diabetes Prediction Result</title>
+
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #495057;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #007bff;
+            margin-top: 20px;
+        }
+
+        p {
+            color: #333;
+        }
+
+        .result-diabetic {
+            color: #dc3545;
+            font-weight: bold;
+        }
+
+        .result-not-diabetic {
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h2>Prediction Result:0</h2>
+    {% if result == 1 %}
+        <p><b>The model predicts that the person is Diabetic.</b></p>
+    {% else %}
+        <p><b>The model predicts that the person is Not Diabetic.</b></p>
+    {% endif %}
+    <a href="/">Go back to input page</a>
+</body>
+</html>
